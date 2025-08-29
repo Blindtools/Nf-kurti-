@@ -1,0 +1,36 @@
+{
+  "name": "nukkad-fabrics-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Advanced WhatsApp Business Chat Bot for Nukkad Fabrics - Kurti Collection Wholesale",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "business",
+    "nukkad-fabrics",
+    "kurti",
+    "wholesale",
+    "apparel"
+  ],
+  "author": "Nukkad Fabrics",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "express": "^4.18.2",
+    "pino": "^8.10.0",
+    "qrcode": "^1.5.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
